@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
+import styles from './Profile.module.css';
 
 export default function ProfileStatsItem({ label, quantity }) {
   return (
     <li>
-      <span class="label">{label}</span>
-      <span class="quantity">{quantity}</span>
+      <span class={styles.label}>{label}</span>
+      <span class={styles.quantity}>{quantity}</span>
     </li>
   );
 }
