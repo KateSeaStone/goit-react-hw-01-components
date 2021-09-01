@@ -4,8 +4,8 @@ import styles from './Profile.module.css';
 export default function ProfileStatsItem({ label, quantity }) {
   return (
     <li>
-      <span class={styles.label}>{label}</span>
-      <span class={styles.quantity}>{quantity}</span>
+      <span className={styles.label}>{label}</span>
+      <span className={styles.quantity}>{quantity}</span>
     </li>
   );
 }
